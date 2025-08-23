@@ -12,3 +12,5 @@ from [www.tom-yam.or.jp/2238/src](http://www.tom-yam.or.jp/2238/src).
 https://cacm.acm.org/research/lessons-learned-from-30-years-of-minix/
 Minix itself can be found here: https://github.com/minix3/minix
 
+also check out: https://github.com/PlummersSoftwareLLC for Dave's Garage stuff!
+
