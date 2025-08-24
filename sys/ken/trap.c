@@ -90,11 +90,11 @@ trap(dev, sp, r1, nps, r0, pc, ps)
 		break;
 
 	case 3+USER: /* iot */
-		i = SIGIOT;
+		i = SIGIOT; /* SIGABRT in Linux! */
 		break;
 
 	case 5+USER: /* emt */
-		i = SIGEMT;
+		i = SIGEMT; /*not supported in Linux! (leads 2 SIGUNUSED)*/
 		break;
 
 	case 6+USER: /* sys call */
