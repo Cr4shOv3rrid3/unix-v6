@@ -127,7 +127,7 @@ trap(dev, sp, r1, nps, r0, pc, ps)
 			}
 			goto out;
 		}
-		i = SIGSYS;
+		i = SIGSYS; /* not suppported in Linux, leads to SIGUNUSED when linked with libbsd */
 		break;
 
 	/*
