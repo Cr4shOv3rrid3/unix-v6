@@ -191,7 +191,7 @@ int (*f)();
 {
 
 	u.u_intflg = 1;
-	savu(u.u_qsav);
+	savu(u.u_qsav); /* https://tldp.org/LDP/lpg/node142.html#:~:text=10.2.-,4%20Signals%20supported%20by%20Linux,''%20in%20the%20Linux%20environment. */
 	(*f)();
 	u.u_intflg = 0;
 }
