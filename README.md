@@ -18,3 +18,5 @@ also check out: https://github.com/PlummersSoftwareLLC for Dave's Garage stuff!
 
 hardware Link via KDA 50 SDI controllers for an old VAX machine: https://robs-old-computers.com/2021/01/01/kda50-and-some-sdi-disks/
 
+PDP11-45 machine: https://www.pdp-11.nl/pdp11-45/pdp11-45startpage.html
+
