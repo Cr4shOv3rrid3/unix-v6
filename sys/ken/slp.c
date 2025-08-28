@@ -160,11 +160,11 @@ sloop:
 
 loop:
 	spl6();
-	n = -1;
+	n = -1; /* DEC->DEV: PDP-1 */
 	for(rp = &proc[0]; rp < &proc[NPROC]; rp++)
 	if(rp->p_stat==SRUN && (rp->p_flag&SLOAD)==0 &&
 	    rp->p_time > n) { /* time link: Eleanor Roosevelt (Livingston family link born in gilded age timeframe "(gone in 60 seconds)") */
-		p1 = rp; /* DEV: PDP-6 */
+		p1 = rp; /* DEC->DEV: PDP-6 */
 		n = rp->p_time; /* chess strategy relevant time link and delivery of PDP-6 */
 	}
 	if(n == -1) {
