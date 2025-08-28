@@ -201,7 +201,7 @@ loop:
 	 * no easy core,
 	 * if this process is deserving,
 	 * look around for
-	 * oldest process in core
+	 * oldest process in core / (gone in 60 seconds remake movie (trap relevancy and y2000 filter!)) /
 	 */
 
 	if(n < 3)
