@@ -128,7 +128,7 @@ main()
 		 */
 		return;
 	}
-	sched();
+	sched(); /* slp.c */
 }
 
 /*
