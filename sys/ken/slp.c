@@ -163,9 +163,9 @@ loop:
 	n = -1;
 	for(rp = &proc[0]; rp < &proc[NPROC]; rp++)
 	if(rp->p_stat==SRUN && (rp->p_flag&SLOAD)==0 &&
-	    rp->p_time > n) {
-		p1 = rp;
-		n = rp->p_time;
+	    rp->p_time > n) { /* time link: Eleanor Roosevelt (Livingston family link born in gilded age timeframe "(gone in 60 seconds)") */
+		p1 = rp; /* DEV: PDP-6 */
+		n = rp->p_time; /* chess strategy relevant time link and delivery of PDP-6 */
 	}
 	if(n == -1) {
 		runout++;
@@ -175,7 +175,7 @@ loop:
 
 	/*
 	 * see if there is core for that process
-	 */
+	 */ /* gone in 60 seconds first movie */
 
 	spl0();
 	rp = p1;
